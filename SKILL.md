@@ -10,3 +10,7 @@ description: 按已采用的项目执行制度管理复杂多阶段任务、工�
 执行已明确采用本版的实例时，每轮及技术恢复前依次完整读取该实例的 [CORE](CORE.md)、[ROUTE](ROUTE.md)、[STATE](STATE.md)，核对完整目标/路线/验收、版本、授权、原 W-ID 与预算；截断补读至末尾。历史与原始证据按相关性查阅。不得用共享模板替代现有实例，不因读到本候选自动迁移。
 
 规则只以实例 CORE 为准；模板和解释按需见 [REFERENCE/RECORDS](REFERENCE/RECORDS.md)，迁移见 [MIGRATION](REFERENCE/MIGRATION.md)。结束/暂停更新同一 STATE，保留原始证据并给简短中文用户交接。自动发现、读到文件与实际遵守须分别验证；本入口不授予权限。
+
+<a id="ai-project-protocol-entry"></a>
+
+[1.3 历史原文与旧路径索引](REFERENCE/legacy-1.3/README.md)。以上兼容锚点仅用于旧链接定位，不改变本页候选职责。

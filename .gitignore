@@ -1,0 +1,20 @@
+# Credentials and environment-specific secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local caches and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.tmp
+*.swp
+*~
+
+# Personal IDE state; shared project configuration remains eligible
+.idea/workspace.xml
+.vscode/*.local.json

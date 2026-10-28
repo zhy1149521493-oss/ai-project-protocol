@@ -8,16 +8,16 @@
     "o200k_base_tokens": 13731
   },
   "candidate_core": {
-    "characters": 6802,
-    "utf8_bytes": 18741,
-    "lines": 101,
-    "o200k_base_tokens": 4909
+    "characters": 7501,
+    "utf8_bytes": 20764,
+    "lines": 105,
+    "o200k_base_tokens": 5429
   },
   "candidate_mandatory_core_route_state": {
-    "characters": 8478,
-    "utf8_bytes": 22432,
-    "lines": 155,
-    "o200k_base_tokens": 5930
+    "characters": 9392,
+    "utf8_bytes": 25040,
+    "lines": 163,
+    "o200k_base_tokens": 6606
   },
   "old_initial_entry_plus_main": {
     "characters": 23561,
@@ -26,13 +26,13 @@
     "o200k_base_tokens": 14421
   },
   "candidate_initial_entry_plus_gate": {
-    "characters": 8994,
-    "utf8_bytes": 23536,
-    "lines": 167,
-    "o200k_base_tokens": 6221
+    "characters": 10024,
+    "utf8_bytes": 26332,
+    "lines": 179,
+    "o200k_base_tokens": 6953
   },
-  "static_core_reduction_percent": 64.2,
-  "mandatory_template_reduction_percent": 56.8,
+  "static_core_reduction_percent": 60.5,
+  "mandatory_template_reduction_percent": 51.9,
   "old_decision_template": {
     "characters": 5828,
     "utf8_bytes": 14552,
@@ -40,10 +40,21 @@
     "o200k_base_tokens": 4130
   },
   "candidate_optional_records": {
-    "characters": 2121,
-    "utf8_bytes": 5375,
-    "lines": 87,
-    "o200k_base_tokens": 1440
+    "characters": 2171,
+    "utf8_bytes": 5517,
+    "lines": 88,
+    "o200k_base_tokens": 1478
   },
-  "maintenance": "Ordinary closure updates STATE and new original evidence; static user guide is not a second live ledger. Route/rule changes still update their approved sources and associated records."
+  "maintenance": "Ordinary closure updates STATE and new original evidence; static user guide is not a second live ledger. Route/rule changes still update their approved sources and associated records.",
+  "route_volume_monitor": {
+    "current_template": {
+      "characters": 758,
+      "utf8_bytes": 1795,
+      "lines": 25,
+      "o200k_base_tokens": 479
+    },
+    "suggested_lines": 120,
+    "suggested_characters": 4000,
+    "hard_limit": false
+  }
 }
