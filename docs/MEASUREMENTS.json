@@ -1,5 +1,5 @@
 {
-  "method": "UTF-8 source text; installed tiktoken o200k_base, no AI API calls; counts are not billed Codex usage.",
+  "method": "Actual UTF-8 file bytes, no newline normalization; characters are Unicode code points including line endings, lines use splitlines(); o200k_base from installed tiktoken, no AI API calls. Aggregates concatenate files in their named order without added separators; counts are not billed Codex usage.",
   "scope": "Unbound templates only. Both layouts require their complete actual project route and state after adoption; populated instances may have different costs.",
   "old_mandatory_main": {
     "characters": 19758,
@@ -8,16 +8,16 @@
     "o200k_base_tokens": 13731
   },
   "candidate_core": {
-    "characters": 7501,
-    "utf8_bytes": 20764,
+    "characters": 7530,
+    "utf8_bytes": 20851,
     "lines": 105,
-    "o200k_base_tokens": 5429
+    "o200k_base_tokens": 5448
   },
   "candidate_mandatory_core_route_state": {
-    "characters": 9392,
-    "utf8_bytes": 25040,
+    "characters": 9453,
+    "utf8_bytes": 25223,
     "lines": 163,
-    "o200k_base_tokens": 6606
+    "o200k_base_tokens": 6646
   },
   "old_initial_entry_plus_main": {
     "characters": 23561,
@@ -26,13 +26,13 @@
     "o200k_base_tokens": 14421
   },
   "candidate_initial_entry_plus_gate": {
-    "characters": 10024,
-    "utf8_bytes": 26332,
+    "characters": 10085,
+    "utf8_bytes": 26515,
     "lines": 179,
-    "o200k_base_tokens": 6953
+    "o200k_base_tokens": 6993
   },
-  "static_core_reduction_percent": 60.5,
-  "mandatory_template_reduction_percent": 51.9,
+  "static_core_reduction_percent": 60.3,
+  "mandatory_template_reduction_percent": 51.6,
   "old_decision_template": {
     "characters": 5828,
     "utf8_bytes": 14552,
@@ -40,21 +40,22 @@
     "o200k_base_tokens": 4130
   },
   "candidate_optional_records": {
-    "characters": 2171,
-    "utf8_bytes": 5517,
-    "lines": 88,
-    "o200k_base_tokens": 1478
+    "characters": 2201,
+    "utf8_bytes": 5593,
+    "lines": 89,
+    "o200k_base_tokens": 1494
   },
   "maintenance": "Ordinary closure updates STATE and new original evidence; static user guide is not a second live ledger. Route/rule changes still update their approved sources and associated records.",
   "route_volume_monitor": {
     "current_template": {
-      "characters": 758,
-      "utf8_bytes": 1795,
+      "characters": 790,
+      "utf8_bytes": 1891,
       "lines": 25,
-      "o200k_base_tokens": 479
+      "o200k_base_tokens": 500
     },
     "suggested_lines": 120,
     "suggested_characters": 4000,
     "hard_limit": false
-  }
+  },
+  "measured_candidate_commit": "5e00c36978ac31c5e8a6a9fc71dcaccc05318f76"
 }
