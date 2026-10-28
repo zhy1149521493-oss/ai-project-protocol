@@ -1,0 +1,49 @@
+{
+  "method": "UTF-8 source text; installed tiktoken o200k_base, no AI API calls; counts are not billed Codex usage.",
+  "scope": "Unbound templates only. Both layouts require their complete actual project route and state after adoption; populated instances may have different costs.",
+  "old_mandatory_main": {
+    "characters": 19758,
+    "utf8_bytes": 52382,
+    "lines": 443,
+    "o200k_base_tokens": 13731
+  },
+  "candidate_core": {
+    "characters": 6802,
+    "utf8_bytes": 18741,
+    "lines": 101,
+    "o200k_base_tokens": 4909
+  },
+  "candidate_mandatory_core_route_state": {
+    "characters": 8478,
+    "utf8_bytes": 22432,
+    "lines": 155,
+    "o200k_base_tokens": 5930
+  },
+  "old_initial_entry_plus_main": {
+    "characters": 23561,
+    "utf8_bytes": 56185,
+    "lines": 465,
+    "o200k_base_tokens": 14421
+  },
+  "candidate_initial_entry_plus_gate": {
+    "characters": 8994,
+    "utf8_bytes": 23536,
+    "lines": 167,
+    "o200k_base_tokens": 6221
+  },
+  "static_core_reduction_percent": 64.2,
+  "mandatory_template_reduction_percent": 56.8,
+  "old_decision_template": {
+    "characters": 5828,
+    "utf8_bytes": 14552,
+    "lines": 217,
+    "o200k_base_tokens": 4130
+  },
+  "candidate_optional_records": {
+    "characters": 2121,
+    "utf8_bytes": 5375,
+    "lines": 87,
+    "o200k_base_tokens": 1440
+  },
+  "maintenance": "Ordinary closure updates STATE and new original evidence; static user guide is not a second live ledger. Route/rule changes still update their approved sources and associated records."
+}

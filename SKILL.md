@@ -1,22 +1,12 @@
 ---
-name: ai-project-protocol  
-description: Apply an adopted AI project execution protocol to complex multi-stage work, budgeted engineering, route decisions, and handoffs. Also use when explicitly asked to instantiate this protocol. Do not impose it on unrelated simple tasks.  
+name: ai-project-protocol
+description: 按已采用的项目执行制度管理复杂多阶段任务、工程预算、重大决策及交接；也用于明确要求审阅或实例化本制度。不要强加于无关简单任务。
 ---
 
-# AI project protocol entry
+# 项目执行入口
 
-Use [PROJECT-EXECUTION-PROTOCOL-ENGINEERING.md](PROJECT-EXECUTION-PROTOCOL-ENGINEERING.md) as the sole normative source, not this entry. Read it in full before acting. This package is initially an unbound template; loading it does not authorize starting a project.
+这是 **2.0.0-rc1 待审候选**，不替换已安装版本或项目规则。审阅只读取材料，不创建应用路线或扣应用预算。
 
-Apply its sections 3.1 and 4.2: a route step targets complete delivery in its first engineering round, including necessary investigation, implementation, integration, repairs and initial validation within authorization. The five-round cap is not a staged development schedule. Later rounds address actual testing, defects/common causes, regression, acceptance gaps or bounded repair/retest of a real first-round blocker; do not preallocate primary implementation to them. End when required acceptance is satisfied and no actual work remains; report blockers without claiming completion or exceeding authority.
+执行已明确采用本版的实例时，每轮及技术恢复前依次完整读取该实例的 [CORE](CORE.md)、[ROUTE](ROUTE.md)、[STATE](STATE.md)，核对完整目标/路线/验收、版本、授权、原 W-ID 与预算；截断补读至末尾。历史与原始证据按相关性查阅。不得用共享模板替代现有实例，不因读到本候选自动迁移。
 
-Apply section 1.5's complete-task authorization: within the approved operation, asset and risk boundaries, autonomously carry out the covered investigation, implementation, delegation/tools, tests, normal-failure repairs/regression, temporary-output cleanup and recovery verification without repeatedly seeking the same permission. Stop and seek the existing approval only for a boundary-crossing action and its real dependencies; continue other safe, independently authorized work with available budget. Task authorization does not infer permission for uncovered high-impact/global changes, extra rounds or budget; preserve the authority's counting and approval gates.
-
-For an adopted project, establish the exact authoritative instance path and its protocol, route, and state versions. If this is a shared installation, use its rules only to initialize a new instance when asked; never write a project's state into the shared template or silently replace the instance with a newer package.
-
-When the user explicitly requests a read-only installation check or paper exercise, follow that scope boundary under main-document section 1.2: read the complete authority and referenced dependencies, identify its version and binding state, and return observations/scenario answers without creating a project route, changing state or budget, or appending project decisions. Loading the skill does not activate an application project.
-
-At each primary user-to-agent engineering instruction, follow the main document's start gate, full-read requirement, historical evidence checks, primary-round reservation and counting rules, approval gates, and stop conditions. Internal delegation, parallel tasks, tools and retries belong to that primary round and do not consume additional conversation rounds; record workload, resource costs and acceptance separately as defined in section 4.1. Follow the main document's lightweight-mode criteria; do not invent exceptions or approval requirements here.
-
-At closure, update the same engineering instance, synchronize the [user guide](PROJECT-EXECUTION-PROTOCOL-USER.md), and use the [decision template](DECISION-LOG-TEMPLATE.md) for records triggered by the main document. Report actual validation and evidence limits. Preserve confirmed historical records.
-
-If required documents are inaccessible, inconsistent, or not fully readable, follow the main document's recovery procedure. If the host cannot load skills, ask the executing agent to read these files directly and follow the same workflow. A skill is an instruction aid, not an enforcement guarantee or permission grant.
+规则只以实例 CORE 为准；模板和解释按需见 [REFERENCE/RECORDS](REFERENCE/RECORDS.md)，迁移见 [MIGRATION](REFERENCE/MIGRATION.md)。结束/暂停更新同一 STATE，保留原始证据并给简短中文用户交接。自动发现、读到文件与实际遵守须分别验证；本入口不授予权限。

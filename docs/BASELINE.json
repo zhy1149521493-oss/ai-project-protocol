@@ -1,0 +1,70 @@
+{
+  "source_repository": "https://github.com/zhy1149521493-oss/ai-project-protocol",
+  "source_commit": "eba4bd0060e6328db635d306b6b18fedeb824949",
+  "source_version": "1.3",
+  "candidate_version": "2.0.0-rc1",
+  "status": "draft-not-adopted",
+  "files": {
+    ".gitignore": {
+      "sha256": "4ceec258149c61fad7e556dbf89d35d7e8193b2cb7fe33c74c55230859414f4e",
+      "bytes": 24
+    },
+    "DECISION-LOG-TEMPLATE.md": {
+      "sha256": "7f2632e4071cef0ceb76d36fbaada8de5c372786aaab50c6439d3ee8bd5d9655",
+      "bytes": 14552
+    },
+    "PROJECT-EXECUTION-PROTOCOL-ENGINEERING.md": {
+      "sha256": "0a7a0f18f90ef1941e80073f4cd7dbbc3c0ce089c73fd9ae8afc728f879610cb",
+      "bytes": 52382
+    },
+    "PROJECT-EXECUTION-PROTOCOL-USER.md": {
+      "sha256": "69ac00006eb1d57261c198bf4451db74cbfb2cfceecdf83df383979432d95cc7",
+      "bytes": 10517
+    },
+    "README.en.md": {
+      "sha256": "36f4289e951789d6a25f7893eea1bada03c1edced911176d52915ac0958a4e65",
+      "bytes": 2780
+    },
+    "README.md": {
+      "sha256": "84b205c97553fc151a5d8331041dd8285e0b5a4363ad387c44f864bb40a927ab",
+      "bytes": 2293
+    },
+    "SKILL.md": {
+      "sha256": "7752ac7f7478635f15ed4ba4db48c832422bf488a9962f6e9d70188a063eaa4a",
+      "bytes": 3803
+    },
+    "docs/AUDIT-AND-EVIDENCE.md": {
+      "sha256": "e4994dc47a68957ac138612c5f621eb2689625d52d0413e5c428560899b8648b",
+      "bytes": 32239
+    },
+    "docs/README.en.md": {
+      "sha256": "c013d523c04f1d484596cf782b54f9d1575e492775ae2903b09b61f9afcc35d7",
+      "bytes": 7468
+    },
+    "docs/README.md": {
+      "sha256": "9478ce6ec27bea91c92064d54b2cf9eaf9f5b6ed768aad96c0c6cc72f3094338",
+      "bytes": 6466
+    },
+    "docs/SKILL-INSTALLATION.en.md": {
+      "sha256": "f3d5a14be68435680931948dccc71cb6768c4c8bf2cd9bbb31888d194a136061",
+      "bytes": 4422
+    },
+    "docs/SKILL-INSTALLATION.md": {
+      "sha256": "2065cdd931ba149065d7df18b83b000b17db7b72e73658f0c4edaf45207b55e3",
+      "bytes": 3813
+    },
+    "docs/decisions/D-0001-budget-conversation-counting.md": {
+      "sha256": "c4c2e6ba199eed20956455e7e409b0b5de761bb188959c9487e44793040b1eb1",
+      "bytes": 14472
+    },
+    "docs/decisions/D-0002-step-first-round-delivery.md": {
+      "sha256": "fd68499ae6d2d31f9a23bd98df44875c6bfaa7ea6c0a620eb30a7fa59c3f4c2d",
+      "bytes": 13042
+    },
+    "docs/decisions/D-0003-complete-task-authorization.md": {
+      "sha256": "7878a9fc3ecce5ecc0f9169a07b1706a6225b8bc24c895ce23c5c01e63ff7593",
+      "bytes": 13522
+    }
+  },
+  "archive_sha256": "092c5eb89412eb12a26226e61479366b73d7b3a95e3d5bf3d36308ae0900fd78"
+}
